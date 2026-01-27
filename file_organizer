@@ -1,0 +1,16 @@
+TARGET_DIR="$HOME/Downloads"
+
+mkdir -p Images Documents videos Music Others
+
+for file in *; do
+if [[ -f "$file" ]]; then
+case "$file" in
+*.jpg|*.png|*.jpeg|*.gif) mv "$file" Images ;;
+*.pdf|*.docx|*.txt) mv "$file" Documents ;;
+*.mp4|*.mkv|*.avi) mv "$file" Videos ;;
+*.mp3|*.wav) mv "$file" Others ;;
+esac
+fi
+done 
+
+echo "files organized successfully!"
