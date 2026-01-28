@@ -12,9 +12,6 @@ A simple Bash script that organizes files into folders based on their file type.
 file-organizer/
 ├── organizer.sh
 ├── README.md
-├── Images/
-├── Documents/
-└── Others/
 
 ## File Types
 - Images → `.jpg`, `.png`
