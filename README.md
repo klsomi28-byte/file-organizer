@@ -9,11 +9,12 @@ A simple Bash script that organizes files into folders based on their file type.
 - Easy to use
 -
 - ## Project Structure
-log-analyzer/
-├── log_analyzer.sh
-├── logs/
-│ └── analysis.log
-└── README.md
+file-organizer/
+├── organizer.sh
+├── README.md
+├── Images/
+├── Documents/
+└── Others/
 
 ## File Types
 - Images → `.jpg`, `.png`
