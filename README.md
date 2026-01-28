@@ -7,6 +7,13 @@ A simple Bash script that organizes files into folders based on their file type.
 - Organizes files automatically
 - Creates folders if not present
 - Easy to use
+-
+- ## Project Structure
+log-analyzer/
+├── log_analyzer.sh
+├── logs/
+│ └── analysis.log
+└── README.md
 
 ## File Types
 - Images → `.jpg`, `.png`
